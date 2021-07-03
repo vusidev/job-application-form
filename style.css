@@ -1,0 +1,143 @@
+
+/* Media Queries: Tablet Landscape */
+@media screen and (max-width: 1060px) {
+    #primary { width:67%; }
+    #secondary { width:30%; margin-left:3%;}  
+}
+
+/* Media Queries: Tabled Portrait */
+@media screen and (max-width: 768px) {
+    #primary { width:100%; }
+    #secondary { width:100%; margin:0; border:none; }
+}
+
+
+
+
+* {
+padding: 0;
+margin: 0;
+outline: none;
+}
+body {
+ font-family: "Montserrat";
+}
+
+form {
+padding-top: 30px;
+margin: 30px auto;
+max-width: 450px;
+padding: 10px 30px;
+background: #fff;
+}
+.form-group {
+position: relative;
+}
+.form-control {
+height: 40px;
+}
+
+.form-control:focus {
+box-shadow: none;
+}
+
+label { 
+ color: #999; 
+ font-size: 16px; 
+ font-weight: normal; 
+ position: absolute; 
+ pointer-events: none; 
+ left: 15px;
+ top: 16px; 
+ transition: 0.5s; 
+}
+
+input:focus + label,input:valid + label { 
+top: -10px;
+left: 15px;
+background: #fff;
+padding: 0 5px;
+font-size: 16px;
+color: #000;
+ }
+
+label.active {
+top: -10px;
+left: 15px;
+background: #fff;
+padding: 0 5px;
+}
+
+.form-group input {
+width: 100%;
+height: 50px;
+border: 1px solid #999;
+}
+
+#dropdown, #ddlView, #ddlNation, #ddlEthnic {
+width: 101%;
+height: 50px;
+background: #fff;
+outline: none;
+font-size: 16px;
+color: #999;
+padding-left: 11px
+}
+
+h2 {
+font-weight: 700;
+}
+
+.form-group input:hover {
+border: 1px solid skyblue;
+}
+
+#dropdown:hover, #ddlView:hover, #ddlNation:hover, #ddlEthnic:hover {
+border: 1px solid skyblue;
+}
+
+.button input {
+border: none;
+}
+.button1 input {
+width: 80%;
+height: 50px;
+background: skyblue;
+color: #ffffff;
+outline: none;
+border: 1px solid skyblue;
+text-transform: uppercase;
+font-size: 16px;
+}
+
+.button1 input:hover {
+background: black;
+color: #ffffff;
+border-radius: 5px;
+border: 2px skyblue outset;
+}
+
+#footer {
+ background: #5E5A80;
+text-align: center;
+color: #FFFFFF;
+height: 30vh;
+}
+
+b { 
+font-weight: 700;
+font-size: 40px;
+}
+
+#error1, #error2, #error3, #error4, #error5, #error6, #error7, #error8, #error9, #error10, #error11, #error12 {
+color: red;
+font-size: 13px;
+} 
+
+.hr1 {
+border: 1px solid white;
+height: 5px;
+background: linear-gradient(to left, transparent,  #82CAFF);
+width: 100%;
+}
+ 
